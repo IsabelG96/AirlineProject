@@ -25,6 +25,6 @@ public class Flight {
     public void setDestination(String newDestination) {this.destination = newDestination;}
     public void setFlightID(int newFlightID) {this.flightID = newFlightID;}
     public void addPassenger(Passenger newPassenger) {this.passengerArrayList.add(newPassenger);}
-    
+
 
 }
