@@ -9,7 +9,7 @@ public class Flight {
     private String destination;
     private ArrayList<Passenger> passengerArrayList;
     private int flightID;
-    private ArrayList<Flight> flightArrayList;
+
 
     public Flight(String destination, int flightID){
         this.destination = destination;
@@ -22,14 +22,14 @@ public class Flight {
     public int getFlightID() { return this.flightID; }
     public ArrayList<Passenger> getPassengers() {return this.passengerArrayList; }
     public int getPassengerCount() { return this.passengerArrayList.size();}
-    public ArrayList<Flight> getFlights() {return this.flightArrayList; }
-    public int getFlightCount() { return this.flightArrayList.size();}
+//    public ArrayList<Flight> getFlights() {return this.flightArrayList; }
+//    public int getFlightCount() { return this.flightArrayList.size();}
     //setters
 
     public void setDestination(String newDestination) {this.destination = newDestination;}
     public void setFlightID(int newFlightID) {this.flightID = newFlightID;}
     public void addPassenger(Passenger newPassenger) {this.passengerArrayList.add(newPassenger);}
 
-    public void addFlight(Flight newFlight) {this.flightArrayList.add(newFlight);}
+//    public void addFlight(Flight newFlight) {this.flightArrayList.add(newFlight);}
 
 }
