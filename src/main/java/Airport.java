@@ -30,11 +30,15 @@ public class Airport {
             String inputPassengerContactInfo = scanner.nextLine();
             testPassenger.setContactInfo(inputPassengerContactInfo);
             System.out.println("Your name is " + testPassenger.getName()
-                    + "your passenger ID is " + testPassenger.getId()
-                    + " and your contact info is" + testPassenger.getContactInfo());
+                    + " your passenger ID is " + testPassenger.getId()
+                    + " and your contact info is " + testPassenger.getContactInfo());
 
             System.out.println("The total flights are: " + newFlightList);
+            System.out.println("What flight would you like to cancel?");
+            String inputCancelledFlight = scanner.findInLine();
+
             }
+
 //        testFlight.addPassenger(testPassenger);
 
     }

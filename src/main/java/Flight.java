@@ -30,6 +30,6 @@ public class Flight {
     public void setFlightID(int newFlightID) {this.flightID = newFlightID;}
     public void addPassenger(Passenger newPassenger) {this.passengerArrayList.add(newPassenger);}
 
-//    public void addFlight(Flight newFlight) {this.flightArrayList.add(newFlight);}
+
 
 }
