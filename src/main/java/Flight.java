@@ -11,7 +11,7 @@ public class Flight {
     private int flightID;
     private ArrayList<Flight> flightArrayList;
 
-    public Flight(String destination, int flightID){
+    public Flight(String destination, int flightID, String passengerName){
         this.destination = destination;
         this.flightID = flightID;
         this.passengerArrayList = new ArrayList<>();
@@ -31,5 +31,7 @@ public class Flight {
     public void addPassenger(Passenger newPassenger) {this.passengerArrayList.add(newPassenger);}
 
     public void addFlight(Flight newFlight) {this.flightArrayList.add(newFlight);}
+
+
 
 }
