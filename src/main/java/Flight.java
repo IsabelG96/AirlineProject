@@ -15,7 +15,7 @@ public class Flight {
         this.destination = destination;
         this.flightID = flightID;
         this.passengerArrayList = new ArrayList<>();
-        this.flightArrayList = new ArrayList<>();
+
     }
     //getters
     public String getDestination() { return this.destination; }
