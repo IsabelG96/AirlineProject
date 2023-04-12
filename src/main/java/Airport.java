@@ -13,7 +13,8 @@ public class Airport {
             String inputFlightID = scanner.nextLine();
             testFlight.setFlightID(Integer.parseInt(inputFlightID));
             System.out.println("Cheers, we've got that!");
-            System.out.println("Your destination is" + testFlight.getDestination() "and your flight ID is" );
+            System.out.println("Your destination is " + testFlight.getDestination() +
+                    " and your flight ID is " + testFlight.getFlightID());
             }
 
         }
